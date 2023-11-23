@@ -1,233 +1,277 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Twitch NL</title>
 </head>
+
 <body class="bg-black text-white">
 
   <nav class="bg-zinc-900 p-4 ">
     <div class="container mx-auto flex">
       <div class="flex justify-start">
-        <img src="twitch.png" alt="Twitch Logo" class="mr-2 hover:scale-125" height="30px" width="30px">
+        <img src="twitch.png" alt="Twitch Logo" class="mr-2 hover:scale-125" height="30" width="30">
         <a href="bladeren.html" class="text-lg font-semibold ml-0 hover:text-purple-500">Bladeren</a>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
         </svg>
-        
+
       </div>
-      
+
 
       <div class="flex items-center justify-center flex-1">
 
-        <input type="text" placeholder="Zoeken" class="bg-gray-800 text-white px-2 py-1 rounded-md w-1/2 md:w-2/4 lg:w-2/5">
+        <input type="text" placeholder="Zoeken"
+          class="bg-gray-800 text-white px-2 py-1 rounded-md w-1/2 md:w-2/4 lg:w-2/5">
       </div>
 
       <div class="flex items-center space-x-4 ml-auto">
         <button class="bg-zinc-700 px-2 py-1 rounded-md hover:bg-zinc-600">
-          <a href="#" class="">Inloggen</a>
+          <p class="">Inloggen</p>
         </button>
         <button class="bg-purple-700 px-2 py-1 rounded-md hover:bg-purple-500">
-          <a href="#" class="">Registreren</a>
+          <p class="">Registreren</p>
         </button>
-        
-        
+
+
         <a href="#" class="hover:text-gray-300">
 
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
           </svg>
-          
+
         </a>
       </div>
     </div>
   </nav>
 
   <main class="">
-  <div class="flex flex-1 h-screen bg-gray-900">
+    <div class="flex flex-1 h-screen bg-gray-900">
 
-    <aside class="w-64 bg-gray-800 p-4 self-start sticky top-16 min-h-screen z-0">
-      <div class="flex items-center mb-8">
+      <aside class="w-64 bg-gray-800 p-4 self-start sticky top-16 min-h-screen z-0">
+        <div class="flex items-center mb-8">
 
-        <span class="text-xl font-semibold">Aanbevolen kanalen</span>
-      </div>
+          <span class="text-xl font-semibold">Aanbevolen kanalen</span>
+        </div>
 
-      <div class="flex items-center">
-        <img src="kip.jpg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
-        <div>
-          <p class="text-sm font-semibold">KipGames</p>
-          <button class="text-xs text-gray-400 hover:text-white ">Cock simulator</button>
+        <div class="flex items-center">
+          <img src="kip.jpg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
+          <div>
+            <p class="text-sm font-semibold">KipGames</p>
+            <button class="text-xs text-gray-400 hover:text-white ">Cock simulator</button>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <img src="mol.jpg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
-        <div>
-          <p class="text-sm font-semibold">MoltenGamer</p>
-          <button class="text-xs text-gray-400 hover:text-white">Dig simulator</button>
+        <div class="flex items-center">
+          <img src="mol.jpg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
+          <div>
+            <p class="text-sm font-semibold">MoltenGamer</p>
+            <button class="text-xs text-gray-400 hover:text-white">Dig simulator</button>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <img src="aap.jpeg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
-        <div>
-          <p class="text-sm font-semibold">GamingGorilla</p>
-          <button class="text-xs text-gray-400 hover:text-white">Jumping Ape</button>
+        <div class="flex items-center">
+          <img src="aap.jpeg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
+          <div>
+            <p class="text-sm font-semibold">GamingGorilla</p>
+            <button class="text-xs text-gray-400 hover:text-white">Jumping Ape</button>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <img src="paard.jpeg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
-        <div>
-          <p class="text-sm font-semibold">ThunderingHorseman</p>
-          <button class="text-xs text-gray-400 hover:text-white">Paard simulator</button>
+        <div class="flex items-center">
+          <img src="paard.jpeg" alt="User Avatar" class="w-10 h-10 rounded-full mr-2">
+          <div>
+            <p class="text-sm font-semibold">ThunderingHorseman</p>
+            <button class="text-xs text-gray-400 hover:text-white">Paard simulator</button>
+          </div>
         </div>
-      </div>
-    </aside>
+      </aside>
+    
 
     <div class="max-w-screen-lg mx-auto p-4">
-      <div id="carousel" class="relative overflow-hidden bg-gray-300 rounded-md shadow-md" >
+      <div id="carousel" class="relative overflow-hidden bg-gray-300 rounded-md shadow-md">
 
-          <div class="flex">
+        <div class="flex">
 
-              <div class="w-full flex-shrink-0">
-                  <img src="stream1.png" alt="Slide 1" class="w-full h-64 object-cover" />
-              </div>
-              <div class="w-full flex-shrink-0">
-                  <img src="stream2.webp" alt="Slide 2" class="w-full h-64 object-cover" />
-              </div>
-              <div class="w-full flex-shrink-0">
-                  <img src="stream3.webp" alt="Slide 3" class="w-full h-64 object-cover" />
-              </div>
-
+          <div class="w-full flex-shrink-0">
+            <img src="stream1.png" alt="Slide 1" class="w-full h-64 object-cover" />
+          </div>
+          <div class="w-full flex-shrink-0">
+            <img src="stream2.webp" alt="Slide 2" class="w-full h-64 object-cover" />
+          </div>
+          <div class="w-full flex-shrink-0">
+            <img src="stream3.webp" alt="Slide 3" class="w-full h-64 object-cover" />
           </div>
 
-          <div class="absolute top-0 bottom-0 flex items-center justify-between w-full">
-              <button class="text-white bg-gray-700 hover:bg-gray-600 py-2 px-4 rounded-l focus:outline-none" onclick="prevSlide()">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="h-6 w-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                  </svg>
-              </button>
-              <button class="text-white bg-gray-700 hover:bg-gray-600 py-2 px-4 rounded-r focus:outline-none" onclick="nextSlide()">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="h-6 w-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                  </svg>
-              </button>
-          </div>
+        </div>
+
+        <div class="absolute top-0 bottom-0 flex items-center justify-between w-full">
+          <button class="text-white bg-gray-700 hover:bg-gray-600 py-2 px-4 rounded-l focus:outline-none"
+            onclick="prevSlide()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+          <button class="text-white bg-gray-700 hover:bg-gray-600 py-2 px-4 rounded-r focus:outline-none"
+            onclick="nextSlide()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+          </button>
+        </div>
 
       </div>
       <div class="gap-4">
-      <div class="">
-        <div class="flex gap-1">
-          <h1 class="text-purple-500 hover:underline font-semibold">Live kanalen </h1> 
-          <h1 class="font-semibold"> die je volgens ons leuk zult vinden</h1>
-        </div>
-      <div class="flex grid-cols-5 gap-4 mt-4 justify-around">
-        <div>
-        <div class="bg-purple-500 rounded-md flex flex-col">
-        <img src="stream1.png" alt="Image 1" class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
-      </div>
-      <h1 class="font-semibold">Fortnite</h1>
-      <div class="flex flex-row flex-wrap gap-2">
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> Shooter </a>
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS </a>
-      </div> 
-      </div>
-      <div>
-      <div class="bg-purple-500 rounded-md">
-      <img src="stream2.webp" alt="Image 2" class=" w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
-      </div>
-      <h1 class="font-semibold">Fortnite</h1>
-      <div class="flex flex-row flex-wrap gap-2">
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> Shooter </a>
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS </a>
-      </div> 
-      </div>  
-      <div>
-      <div class="bg-purple-500 rounded-md">
-        <img src="stream3.webp" alt="Image 3" class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
-      </div>
-      <h1 class="font-semibold">Fortnite</h1>
-      <div class="flex flex-row flex-wrap gap-2">
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> Shooter </a>
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS </a>
-      </div> 
-    </div>
+        <div class="">
+          <div class="flex gap-1">
+            <h1 class="text-purple-500 hover:underline font-semibold">Live kanalen </h1>
+            <h1 class="font-semibold"> die je volgens ons leuk zult vinden</h1>
+          </div>
+          <div class="flex grid-cols-5 gap-4 mt-4 justify-around">
+            <div>
+              <div class="bg-purple-500 rounded-md flex flex-col">
+                <img src="stream1.png" alt="Image 1"
+                  class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+              </div>
+              <h1 class="font-semibold">Fortnite</h1>
+              <div class="flex flex-row flex-wrap gap-2">
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">
+                  Shooter </a>
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="bg-purple-500 rounded-md">
+                <img src="stream2.webp" alt="Image 2"
+                  class=" w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+              </div>
+              <h1 class="font-semibold">Fortnite</h1>
+              <div class="flex flex-row flex-wrap gap-2">
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">
+                  Shooter </a>
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="bg-purple-500 rounded-md">
+                <img src="stream3.webp" alt="Image 3"
+                  class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+              </div>
+              <h1 class="font-semibold">Fortnite</h1>
+              <div class="flex flex-row flex-wrap gap-2">
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">
+                  Shooter </a>
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS
+                </a>
+              </div>
+            </div>
 
-      </div>
-      </div>
-      <div>
-        <div class="flex gap-1">
-          <h1 class="font-semibold">Aanbevolen</h1>
-          <h1 class="text-purple-500 hover:underline font-semibold">Fortnite </h1> 
-          <h1 class="font-semibold"> kanalen</h1>
+          </div>
         </div>
-      <div class="flex grid-cols-5 gap-4 mt-4 justify-around">
         <div>
-        <div class="bg-purple-500 rounded-md flex flex-col">
-        <img src="stream1.png" alt="Image 1" class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+          <div class="flex gap-1">
+            <h1 class="font-semibold">Aanbevolen</h1>
+            <h1 class="text-purple-500 hover:underline font-semibold">Fortnite </h1>
+            <h1 class="font-semibold"> kanalen</h1>
+          </div>
+          <div class="flex grid-cols-5 gap-4 mt-4 justify-around">
+            <div>
+              <div class="bg-purple-500 rounded-md flex flex-col">
+                <img src="stream1.png" alt="Image 1"
+                  class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+              </div>
+              <h1 class="font-semibold">Fortnite</h1>
+              <div class="flex flex-row flex-wrap gap-2">
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">
+                  Shooter </a>
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="bg-purple-500 rounded-md">
+                <img src="stream2.webp" alt="Image 2"
+                  class=" w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+              </div>
+              <h1 class="font-semibold">Fortnite</h1>
+              <div class="flex flex-row flex-wrap gap-2">
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">
+                  Shooter </a>
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="bg-purple-500 rounded-md">
+                <img src="stream3.webp" alt="Image 3"
+                  class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
+              </div>
+              <h1 class="font-semibold">Fortnite</h1>
+
+              <div class="flex flex-row flex-wrap gap-2">
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full">
+                  Shooter </a>
+                <a href="#"
+                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1 class="font-semibold">Fortnite</h1>
-      <div class="flex flex-row flex-wrap gap-2">
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> Shooter </a>
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS </a>
-      </div> 
-      </div>
-      <div>
-      <div class="bg-purple-500 rounded-md">
-      <img src="stream2.webp" alt="Image 2" class=" w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
-      </div>
-      <h1 class="font-semibold">Fortnite</h1>
-      <div class="flex flex-row flex-wrap gap-2">
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> Shooter </a>
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS </a>
-      </div> 
-      </div>  
-      <div>
-      <div class="bg-purple-500 rounded-md">
-        <img src="stream3.webp" alt="Image 3" class="w-screen object-cover rounded-md hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100">
-      </div>
-      <h1 class="font-semibold">Fortnite</h1>
-      
-      <div class="flex flex-row flex-wrap gap-2">
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> Shooter </a>
-        <a href="#" class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"> FPS </a>
-      </div> 
     </div>
-  </div>
-      </div>
-      </div>
+    </div>
 
 
   </main>
 
 
   <script>
-      let currentIndex = 0;
+    let currentIndex = 0;
 
-      function showSlide(index) {
-          const slides = document.querySelectorAll("#carousel .flex > div");
-          currentIndex = (index + slides.length) % slides.length;
+    function showSlide(index) {
+      const slides = document.querySelectorAll("#carousel .flex > div");
+      currentIndex = (index + slides.length) % slides.length;
 
-          slides.forEach((slide, i) => {
-              slide.style.transform = `translateX(${-currentIndex * 100}%)`;
-          });
-      }
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(${-currentIndex * 100}%)`;
+      });
+    }
 
-      function prevSlide() {
-          showSlide(currentIndex - 1);
-      }
+    function prevSlide() {
+      showSlide(currentIndex - 1);
+    }
 
-      function nextSlide() {
-          showSlide(currentIndex + 1);
-      }
+    function nextSlide() {
+      showSlide(currentIndex + 1);
+    }
 
-      document.addEventListener("DOMContentLoaded", () => {
-            showSlide(currentIndex);
-        });
+    document.addEventListener("DOMContentLoaded", () => {
+      showSlide(currentIndex);
+    });
   </script>
 
 
 </body>
+
 </html>
